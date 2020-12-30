@@ -1,0 +1,23 @@
+/*
+this CSS used for alignment to the center
+and distinguish between the buttons only
+*/
+body,
+html,
+#root {
+  height: 100%;
+}
+.mainWrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.buttonWrap_2 {
+  margin-top: 50px;
+}
